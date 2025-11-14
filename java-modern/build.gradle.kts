@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     implementation("org.jspecify:jspecify:1.0.0")
-    implementation(rootProject)
+    implementation(project(":JDiscordIPC"))
 }
 
 tasks.test {
