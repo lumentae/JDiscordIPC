@@ -109,7 +109,6 @@ public class PacketCodec {
         }
 
         final String payload = StandardCharsets.UTF_8.decode(payloadBuffer).toString();
-        System.out.println("Payload: " + payload);
 
         switch (opcode) {
             case FRAME:
